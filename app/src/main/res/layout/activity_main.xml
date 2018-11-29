@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.solarexsoft.solarexseekbardemo.CoachSeekbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/csb_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    app:minProgress="100"
+    app:maxProgress="300"
+    app:currentProgress="150"
+    app:stepProgress="5">
+</com.solarexsoft.solarexseekbardemo.CoachSeekbar>

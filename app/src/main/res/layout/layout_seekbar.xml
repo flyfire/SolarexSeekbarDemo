@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:background="@drawable/layout_seekbar_layoutbackground">
+
+    <ImageView
+        android:id="@+id/iv_minus"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="14dp"
+        android:src="@drawable/layout_seekbar_minus"/>
+
+    <ImageView
+        android:id="@+id/iv_add"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="14dp"
+        android:src="@drawable/layout_seekbar_add"/>
+
+    <SeekBar
+        android:id="@+id/sb_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_toLeftOf="@+id/iv_add"
+        android:layout_toRightOf="@+id/iv_minus"
+        android:maxHeight="4dp"
+        android:thumb="@drawable/layout_seekbar_dot"
+        android:background="@null"
+        android:splitTrack="false"
+        android:progressDrawable="@drawable/layout_seekbar_seekbarbackground"/>
+</RelativeLayout>
