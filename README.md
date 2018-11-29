@@ -1,4 +1,5 @@
 #SolarexSeekbarDemo
+-------------------------------
 
 ```java
 java代码中setxxx即可设置相应属性
